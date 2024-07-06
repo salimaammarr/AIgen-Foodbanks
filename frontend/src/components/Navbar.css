@@ -1,0 +1,18 @@
+.navbar {
+  background-color: transparent !important;
+  font-family: "Work Sans", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 1000;
+  color: white !important;
+  font-size: 2rem; /* Adjust the size as needed */
+}
+
+.nav-link {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: white !important;
+  margin-left: 20px;
+}
