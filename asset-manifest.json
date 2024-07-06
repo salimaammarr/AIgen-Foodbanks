@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.183c0fa8.css",
-    "main.js": "/static/js/main.7c291aac.js",
-    "static/js/422.a8f87740.chunk.js": "/static/js/422.a8f87740.chunk.js",
-    "index.html": "/index.html",
-    "main.183c0fa8.css.map": "/static/css/main.183c0fa8.css.map",
-    "main.7c291aac.js.map": "/static/js/main.7c291aac.js.map",
-    "422.a8f87740.chunk.js.map": "/static/js/422.a8f87740.chunk.js.map"
+    "main.css": "/AIgen-Foodbanks/static/css/main.183c0fa8.css",
+    "main.js": "/AIgen-Foodbanks/static/js/main.cdb67a84.js",
+    "static/js/422.a8f87740.chunk.js": "/AIgen-Foodbanks/static/js/422.a8f87740.chunk.js",
+    "index.html": "/AIgen-Foodbanks/index.html",
+    "main.183c0fa8.css.map": "/AIgen-Foodbanks/static/css/main.183c0fa8.css.map",
+    "main.cdb67a84.js.map": "/AIgen-Foodbanks/static/js/main.cdb67a84.js.map",
+    "422.a8f87740.chunk.js.map": "/AIgen-Foodbanks/static/js/422.a8f87740.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.183c0fa8.css",
-    "static/js/main.7c291aac.js"
+    "static/js/main.cdb67a84.js"
   ]
 }
