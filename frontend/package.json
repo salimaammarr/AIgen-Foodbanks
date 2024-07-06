@@ -2,6 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://salimaammarr.github.io/AIgen-Foodbanks/",
   "dependencies": {
     "axios": "^0.21.4",
     "bootstrap": "^5.3.3",
