@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AIgen-Foodbanks/static/css/main.183c0fa8.css",
-    "main.js": "/AIgen-Foodbanks/static/js/main.86123d7d.js",
+    "main.js": "/AIgen-Foodbanks/static/js/main.4e3dd379.js",
     "static/js/422.a8f87740.chunk.js": "/AIgen-Foodbanks/static/js/422.a8f87740.chunk.js",
     "index.html": "/AIgen-Foodbanks/index.html",
     "main.183c0fa8.css.map": "/AIgen-Foodbanks/static/css/main.183c0fa8.css.map",
-    "main.86123d7d.js.map": "/AIgen-Foodbanks/static/js/main.86123d7d.js.map",
+    "main.4e3dd379.js.map": "/AIgen-Foodbanks/static/js/main.4e3dd379.js.map",
     "422.a8f87740.chunk.js.map": "/AIgen-Foodbanks/static/js/422.a8f87740.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.183c0fa8.css",
-    "static/js/main.86123d7d.js"
+    "static/js/main.4e3dd379.js"
   ]
 }
