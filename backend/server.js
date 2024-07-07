@@ -10,8 +10,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const uri =
-  "mongodb+srv://taiefahmed04:7890Bd563xt@fooddb.ijr3dan.mongodb.net/foodbank?retryWrites=true&w=majority";
+const uri = process.env.MONGODB_URI;
 
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
