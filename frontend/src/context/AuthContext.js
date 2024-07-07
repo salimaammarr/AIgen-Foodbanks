@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
     if (token) {
       axios.defaults.headers.common["x-auth-token"] = token;
       axios
-        .get("/api/users/me")
+        .get(`${process.env.REACT_APP_BACKEND_URL}/api/users/me`)
         .then((response) => {
           setUser(response.data);
         })
@@ -23,14 +23,19 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const login = async (username, password) => {
-    const response = await axios.post("/api/users/login", {
-      username,
-      password,
-    });
+    const response = await axios.post(
+      `${process.env.REACT_APP_BACKEND_URL}/api/users/login`,
+      {
+        username,
+        password,
+      }
+    );
     const { token } = response.data;
     localStorage.setItem("token", token);
     axios.defaults.headers.common["x-auth-token"] = token;
-    const userResponse = await axios.get("/api/users/me");
+    const userResponse = await axios.get(
+      `${process.env.REACT_APP_BACKEND_URL}/api/users/me`
+    );
     setUser(userResponse.data);
   };
 
