@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
 import NavigationBar from "../components/Navbar";
+import { LinkContainer } from "react-router-bootstrap";
 import "./MainPage.css";
 
 const MainPage = () => {
@@ -35,9 +36,9 @@ const MainPage = () => {
               Manage inventory, track donations, and distribute food to those in
               need.
             </p>
-            <Button className="cta-button" href="/login">
-              Login as Employee
-            </Button>
+            <LinkContainer to="/login">
+              <Button className="cta-button">Login as Employee</Button>
+            </LinkContainer>
           </Col>
           <Col md={6}>
             <h3>For Receivers</h3>
@@ -45,9 +46,9 @@ const MainPage = () => {
               Register to receive food, update your preferences, and manage your
               profile.
             </p>
-            <Button className="cta-button" href="/login">
-              Login as Receiver
-            </Button>
+            <LinkContainer to="/login">
+              <Button className="cta-button">Login as Receiver</Button>
+            </LinkContainer>
           </Col>
         </Row>
       </Container>
