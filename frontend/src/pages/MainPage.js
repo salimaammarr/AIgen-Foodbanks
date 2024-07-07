@@ -8,10 +8,11 @@ const MainPage = () => {
     <>
       <div className="image-container">
         <Image
-          src={`${process.env.PUBLIC_URL}/images/main.webp`}
+          src="images/main.webp"
           alt="Welcome"
           className="img-fluid full-width-image"
         />
+
         <div className="overlay">
           <NavigationBar />
         </div>
