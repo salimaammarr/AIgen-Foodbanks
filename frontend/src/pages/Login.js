@@ -5,7 +5,7 @@ import { useAuth } from "../hooks/useAuth";
 import NavigationBar from "../components/Navbar";
 import "./Login.css";
 
-const Login = ({ history }) => {
+const Login = () => {
   const navigate = useNavigate();
   const { login } = useAuth();
   const [username, setUsername] = useState("");
@@ -15,7 +15,7 @@ const Login = ({ history }) => {
     e.preventDefault();
     try {
       await login(username, password);
-      history.push("/dashboard");
+      navigate("/dashboard");
     } catch (err) {
       console.error("Failed to login", err);
     }
